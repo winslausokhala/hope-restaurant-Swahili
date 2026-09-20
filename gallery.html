@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Picha | Hope</title>
+  <meta name="description" content="Picha za chakula, vinywaji na ukumbi wa chakula wa Hope.">
+  <meta name="theme-color" content="#171f4b">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:site_name" content="Hope">
+  <meta property="og:locale" content="sw_TZ">
+  <meta property="og:title" content="Picha | Hope">
+  <meta property="og:description" content="Picha za chakula, vinywaji na ukumbi wa chakula wa Hope.">
+  <!-- PLACEHOLDER: replace with the full web address of your share image once the site is live. -->
+  <meta property="og:image" content="https://your-domain.example/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ruka hadi kwenye maudhui</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Hope, ukurasa wa mwanzo"><span class="brand-sun" aria-hidden="true"></span>Hope</a>
+      <a class="btn btn-sun btn-small header-book" href="reservations.html">Weka meza</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Fungua orodha ya kurasa</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Urambazaji mkuu">
+        <ul>
+          <li><a href="index.html">Nyumbani</a></li>
+          <li><a href="menu.html">Menyu</a></li>
+          <li><a href="about.html">Kuhusu Sisi</a></li>
+          <li><a href="gallery.html" aria-current="page">Picha</a></li>
+          <li><a href="contact.html">Mawasiliano</a></li>
+          <li class="nav-cta"><a href="reservations.html">Weka meza</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Picha</h1>
+        <p class="lead">Mwonekano wa chakula na ukumbi wetu. Chagua picha ili kuikuza.</p>
+      </div>
+    </div>
+
+    <section class="section" aria-label="Picha">
+      <div class="wrap">
+        <ul class="gallery" id="gallery-grid"></ul>
+        <noscript><p>Washa JavaScript ili uone picha.</p></noscript>
+      </div>
+    </section>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Kitazamaji cha picha">
+      <figure>
+        <div class="lightbox-media" id="lightbox-media"></div>
+        <figcaption id="lightbox-caption" aria-live="polite"></figcaption>
+      </figure>
+      <div class="lightbox-controls">
+        <button class="btn btn-sun btn-small" type="button" data-lb="prev">Picha iliyotangulia</button>
+        <button class="btn btn-sun btn-small" type="button" data-lb="next">Picha inayofuata</button>
+        <button class="btn btn-outline-light btn-small close" type="button" data-lb="close">Funga</button>
+      </div>
+    </dialog>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="wrap cta-inner">
+        <div>
+          <h2 id="cta-title">Weka meza yako</h2>
+          <p>Tuambie unakuja lini na mtakuwa wangapi.</p>
+        </div>
+        <a class="btn btn-sun" href="reservations.html">Weka meza</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">Hope</p>
+        <p class="footer-note">Mapishi ya kisasa ya Kitanzania, ya kuliwa pamoja.</p>
+        <div class="social" data-site="social"></div>
+      </div>
+      <div>
+        <h2 class="footer-title">Saa za kufungua</h2>
+        <div data-site="hours">
+          <dl class="hours-list">
+              <div class="hours-row"><dt>Jumatatu hadi Alhamisi</dt><dd>11:00 hadi 22:00</dd></div>
+              <div class="hours-row"><dt>Ijumaa na Jumamosi</dt><dd>11:00 hadi 23:30</dd></div>
+              <div class="hours-row"><dt>Jumapili</dt><dd>12:00 hadi 21:00</dd></div>
+            </dl>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Tupate hapa</h2>
+        <address data-site="address">[Anwani ya mtaa], [Jiji], [Nchi]</address>
+        <p><a data-site="phone" href="tel:+255700000000">+255 700 000 000</a></p>
+        <p><a data-site="email" href="mailto:hello@example.com">hello@example.com</a></p>
+        <p><a data-site="whatsapp" href="#" hidden>Tutumie ujumbe kupitia WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="footer-base">
+        <p>&copy; <span data-site="year">2026</span> Hope. Haki zote zimehifadhiwa.</p>
+        <p data-site="credits" hidden></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

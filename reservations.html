@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weka Meza | Hope</title>
+  <meta name="description" content="Weka meza Hope. Chagua tarehe, saa na idadi ya wageni, nasi tutathibitisha kwa barua pepe au simu.">
+  <meta name="theme-color" content="#171f4b">
+  <meta property="og:type" content="restaurant.restaurant">
+  <meta property="og:site_name" content="Hope">
+  <meta property="og:locale" content="sw_TZ">
+  <meta property="og:title" content="Weka Meza | Hope">
+  <meta property="og:description" content="Weka meza Hope. Chagua tarehe, saa na idadi ya wageni, nasi tutathibitisha kwa barua pepe au simu.">
+  <!-- PLACEHOLDER: replace with the full web address of your share image once the site is live. -->
+  <meta property="og:image" content="https://your-domain.example/images/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ruka hadi kwenye maudhui</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Hope, ukurasa wa mwanzo"><span class="brand-sun" aria-hidden="true"></span>Hope</a>
+      <a class="btn btn-sun btn-small header-book" href="reservations.html" aria-current="page">Weka meza</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="sr-only">Fungua orodha ya kurasa</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Urambazaji mkuu">
+        <ul>
+          <li><a href="index.html">Nyumbani</a></li>
+          <li><a href="menu.html">Menyu</a></li>
+          <li><a href="about.html">Kuhusu Sisi</a></li>
+          <li><a href="gallery.html">Picha</a></li>
+          <li><a href="contact.html">Mawasiliano</a></li>
+          <li class="nav-cta"><a href="reservations.html" aria-current="page">Weka meza</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="wrap">
+        <h1>Weka meza</h1>
+        <p class="lead">Tuambie ungependa kuja lini. Tutathibitisha meza yako kwa barua pepe au simu.</p>
+      </div>
+    </div>
+
+    <section class="section" aria-label="Fomu ya kuweka meza">
+      <div class="wrap form-wrap">
+        <form data-form="booking" novalidate>
+          <div class="form-status" role="status" tabindex="-1" hidden></div>
+          <div class="form-grid form-grid--2">
+            <div class="field">
+              <label for="name">Jina kamili</label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+              <p class="field-error" id="name-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="phone">Namba ya simu</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="phone-error">
+              <p class="field-error" id="phone-error" hidden></p>
+            </div>
+            <div class="field field--full">
+              <label for="email">Barua pepe</label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+              <p class="field-error" id="email-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="date">Tarehe</label>
+              <input id="date" name="date" type="date" required aria-describedby="date-error">
+              <p class="field-error" id="date-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="time">Saa</label>
+              <select id="time" name="time" required aria-describedby="time-error">
+                <option value="">Chagua saa</option>
+              </select>
+              <p class="field-error" id="time-error" hidden></p>
+            </div>
+            <div class="field field--full">
+              <label for="guests">Idadi ya wageni</label>
+              <select id="guests" name="guests" required aria-describedby="guests-hint guests-error">
+                <option value="">Chagua idadi ya wageni</option>
+              </select>
+              <p class="field-hint" id="guests-hint">Kwa makundi makubwa, tafadhali tupigie simu.</p>
+              <p class="field-error" id="guests-error" hidden></p>
+            </div>
+            <div class="field field--full">
+              <label for="notes">Kuna jambo tunalopaswa kujua? (si lazima)</label>
+              <textarea id="notes" name="notes" placeholder="Mzio, siku ya kuzaliwa, kiti cha mtoto"></textarea>
+            </div>
+            <div class="honeypot" aria-hidden="true">
+              <label for="gotcha">Acha sehemu hii wazi</label>
+              <input id="gotcha" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field--full">
+              <button class="btn btn-night" type="submit">Omba meza hii</button>
+            </div>
+          </div>
+        </form>
+
+        <aside class="details" aria-label="Kabla ya kuweka meza">
+          <div>
+            <h2 class="subtitle">Saa za kufungua</h2>
+            <div data-site="hours">
+              <dl class="hours-list">
+              <div class="hours-row"><dt>Jumatatu hadi Alhamisi</dt><dd>11:00 hadi 22:00</dd></div>
+              <div class="hours-row"><dt>Ijumaa na Jumamosi</dt><dd>11:00 hadi 23:30</dd></div>
+              <div class="hours-row"><dt>Jumapili</dt><dd>12:00 hadi 21:00</dd></div>
+            </dl>
+            </div>
+          </div>
+          <div>
+            <h2 class="subtitle">Unapendelea kupiga simu?</h2>
+            <p><a class="link" data-site="phone" href="tel:+255700000000">+255 700 000 000</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">Hope</p>
+        <p class="footer-note">Mapishi ya kisasa ya Kitanzania, ya kuliwa pamoja.</p>
+        <div class="social" data-site="social"></div>
+      </div>
+      <div>
+        <h2 class="footer-title">Saa za kufungua</h2>
+        <div data-site="hours">
+          <dl class="hours-list">
+              <div class="hours-row"><dt>Jumatatu hadi Alhamisi</dt><dd>11:00 hadi 22:00</dd></div>
+              <div class="hours-row"><dt>Ijumaa na Jumamosi</dt><dd>11:00 hadi 23:30</dd></div>
+              <div class="hours-row"><dt>Jumapili</dt><dd>12:00 hadi 21:00</dd></div>
+            </dl>
+        </div>
+      </div>
+      <div>
+        <h2 class="footer-title">Tupate hapa</h2>
+        <address data-site="address">[Anwani ya mtaa], [Jiji], [Nchi]</address>
+        <p><a data-site="phone" href="tel:+255700000000">+255 700 000 000</a></p>
+        <p><a data-site="email" href="mailto:hello@example.com">hello@example.com</a></p>
+        <p><a data-site="whatsapp" href="#" hidden>Tutumie ujumbe kupitia WhatsApp</a></p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="footer-base">
+        <p>&copy; <span data-site="year">2026</span> Hope. Haki zote zimehifadhiwa.</p>
+        <p data-site="credits" hidden></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/forms.js"></script>
+</body>
+</html>

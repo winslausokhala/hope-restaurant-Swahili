@@ -1,0 +1,291 @@
+{
+  "currency": "TZS",
+  "items": [
+    {
+      "id": "sambusa-nyama",
+      "name": "Sambusa za Nyama",
+      "category": "Vianzio",
+      "price": 6000,
+      "description": "Sambusa zilizokaangwa hadi kukauka vizuri, zimejazwa nyama ya kusaga iliyokolezwa viungo, kitunguu na kotimiri, zikiliwa na mchuzi wa pilipili na ukwaju.",
+      "image": "images/menu/sambusa-nyama.jpg",
+      "alt": "Sambusa tatu za rangi ya dhahabu kando ya bakuli dogo la mchuzi wa pilipili",
+      "tags": [
+        "Halali",
+        "Ina Pilipili"
+      ]
+    },
+    {
+      "id": "bajia-za-viazi",
+      "name": "Bajia za Viazi",
+      "category": "Vianzio",
+      "price": 5000,
+      "description": "Vipande vya viazi vilivyochovywa kwenye mchanganyiko wa unga uliokolezwa viungo na kukaangwa hadi kuwa vya dhahabu, vikiliwa na chatini ya ukwaju.",
+      "image": "images/menu/bajia-za-viazi.jpg",
+      "alt": "Bajia za viazi za rangi ya dhahabu zilizorundikwa kwenye sahani pamoja na chatini",
+      "tags": [
+        "Vegan"
+      ]
+    },
+    {
+      "id": "urojo-wa-zanzibar",
+      "name": "Urojo wa Zanzibar",
+      "category": "Vianzio",
+      "price": 7000,
+      "description": "Supu yenye ladha ya tindikali ya ukwaju na manjano, iliyotiwa viazi, bajia, mihogo ya kukaanga, kachumbari, chatini ya embe na pilipili.",
+      "image": "images/menu/urojo-wa-zanzibar.jpg",
+      "alt": "Bakuli la supu ya urojo ya rangi ya njano iliyopambwa kwa bajia na kachumbari",
+      "tags": [
+        "Bila Nyama",
+        "Ina Pilipili"
+      ]
+    },
+    {
+      "id": "mihogo-ya-kukaanga",
+      "name": "Mihogo ya Kukaanga na Mchuzi wa Pilipili",
+      "category": "Vianzio",
+      "price": 4500,
+      "description": "Mihogo iliyochemshwa kisha kukaangwa hadi ikawa ya dhahabu na kukauka, ikiliwa na mchuzi wa pilipili na ukwaju.",
+      "image": "images/menu/mihogo-ya-kukaanga.jpg",
+      "alt": "Vipande vya mihogo ya dhahabu pamoja na bakuli dogo la mchuzi mwekundu wa pilipili",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni",
+        "Ina Pilipili"
+      ]
+    },
+    {
+      "id": "mtori-wa-nyama",
+      "name": "Mtori wa Nyama",
+      "category": "Vianzio",
+      "price": 8000,
+      "description": "Supu nyepesi ya ndizi mbichi na nyama ya ng'ombe, iliyopikwa taratibu hadi ndizi zikawa laini, ikimalizwa kwa siagi na kotimiri.",
+      "image": "images/menu/mtori-wa-nyama.jpg",
+      "alt": "Bakuli la supu ya ndizi na nyama yenye kotimiri juu",
+      "tags": [
+        "Halali",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "mishkaki",
+      "name": "Sahani ya Mishkaki",
+      "category": "Vyakula Vikuu",
+      "price": 18000,
+      "description": "Vipande vya nyama ya ng'ombe vilivyoloweshwa kwenye viungo na kuchomwa kwa mkaa kwenye vijiti, pamoja na chipsi, kachumbari na mchuzi wa pilipili.",
+      "image": "images/menu/mishkaki.jpg",
+      "alt": "Vijiti vya mishkaki iliyochomwa kando ya chipsi na kachumbari",
+      "tags": [
+        "Halali",
+        "Ina Pilipili"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ugali-sangara",
+      "name": "Ugali na Sangara wa Kukaanga",
+      "category": "Vyakula Vikuu",
+      "price": 22000,
+      "description": "Vipande vya sangara vilivyokolezwa viungo na kukaangwa, vikiliwa na ugali, mchicha wa nazi na kachumbari.",
+      "image": "images/menu/ugali-sangara.jpg",
+      "alt": "Sangara aliyekaangwa pamoja na ugali mweupe na mboga za kijani",
+      "tags": [
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "samaki-wa-kupaka",
+      "name": "Samaki wa Kupaka",
+      "category": "Vyakula Vikuu",
+      "price": 28000,
+      "description": "Samaki mzima aliyechomwa na kupakwa mchuzi wa nazi, ukwaju na pilipili, akiliwa na wali wa nazi na kachumbari.",
+      "image": "images/menu/samaki-wa-kupaka.jpg",
+      "alt": "Samaki mzima aliyechomwa akiwa na mchuzi wa nazi na wali mweupe",
+      "tags": [
+        "Bila Gluteni",
+        "Ina Pilipili"
+      ],
+      "featured": true
+    },
+    {
+      "id": "pilau-ya-nyama",
+      "name": "Pilau ya Nyama",
+      "category": "Vyakula Vikuu",
+      "price": 12000,
+      "description": "Wali wa pilau uliopikwa pamoja na nyama ya ng'ombe, jira, iliki, mdalasini na karafuu, ukiliwa na kachumbari na pilipili.",
+      "image": "images/menu/pilau-ya-nyama.jpg",
+      "alt": "Sahani ya pilau ya kahawia yenye vipande vya nyama na kachumbari pembeni",
+      "tags": [
+        "Halali",
+        "Bila Gluteni"
+      ],
+      "featured": true
+    },
+    {
+      "id": "ndizi-nyama",
+      "name": "Ndizi Nyama",
+      "category": "Vyakula Vikuu",
+      "price": 14000,
+      "description": "Ndizi mbichi zilizopikwa taratibu pamoja na nyama ya ng'ombe kwenye mchuzi wa nyanya, kitunguu na viungo.",
+      "image": "images/menu/ndizi-nyama.jpg",
+      "alt": "Bakuli la ndizi na nyama kwenye mchuzi wa nyanya",
+      "tags": [
+        "Halali",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "maharage-ya-nazi",
+      "name": "Maharage ya Nazi na Chapati",
+      "category": "Vyakula Vikuu",
+      "price": 9000,
+      "description": "Maharage yaliyopikwa taratibu kwenye tui la nazi na kitunguu saumu, yakiliwa na chapati mbili za tabaka na kachumbari.",
+      "image": "images/menu/maharage-ya-nazi.jpg",
+      "alt": "Bakuli la maharage kwenye mchuzi wa nazi kando ya chapati zilizokunjwa",
+      "tags": [
+        "Vegan"
+      ]
+    },
+    {
+      "id": "kuku-wa-kupaka",
+      "name": "Kuku wa Kupaka",
+      "category": "Vyakula Vikuu",
+      "price": 16000,
+      "description": "Kuku aliyechomwa kisha kupakwa mchuzi wa nazi, manjano na kitunguu saumu, akiliwa na wali wa nazi na kachumbari.",
+      "image": "images/menu/kuku-wa-kupaka.jpg",
+      "alt": "Kuku aliyechomwa akiwa na mchuzi wa manjano na wali mweupe",
+      "tags": [
+        "Halali",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "vitumbua",
+      "name": "Vitumbua vya Nazi",
+      "category": "Vitindamlo",
+      "price": 5000,
+      "description": "Vitumbua vya moto vya unga wa mchele, tui la nazi na iliki, vikiliwa na mchuzi mtamu wa nazi.",
+      "image": "images/menu/vitumbua.jpg",
+      "alt": "Vitumbua vya duara vya rangi ya dhahabu kwenye sahani pamoja na bakuli dogo la mchuzi wa nazi",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni"
+      ],
+      "featured": true
+    },
+    {
+      "id": "kaimati",
+      "name": "Kaimati",
+      "category": "Vitindamlo",
+      "price": 4500,
+      "description": "Vidonge laini vya unga vilivyokaangwa hadi kuwa vya dhahabu, kisha kuchovywa kwenye sharubati ya sukari yenye iliki.",
+      "image": "images/menu/kaimati.jpg",
+      "alt": "Vidonge vya kaimati vya dhahabu vinavyong'aa kwa sharubati",
+      "tags": [
+        "Bila Nyama"
+      ]
+    },
+    {
+      "id": "halwa",
+      "name": "Halwa ya Zanzibar",
+      "category": "Vitindamlo",
+      "price": 4000,
+      "description": "Halwa laini ya sukari, wanga na samli yenye harufu ya iliki, ikiwa na karanga juu.",
+      "image": "images/menu/halwa.jpg",
+      "alt": "Vipande vya halwa ya kahawia vyenye karanga juu",
+      "tags": [
+        "Bila Nyama"
+      ]
+    },
+    {
+      "id": "embe-aiskrimu-nazi",
+      "name": "Embe Mbivu na Aiskrimu ya Nazi",
+      "category": "Vitindamlo",
+      "price": 8000,
+      "description": "Vipande vya embe mbivu vikiliwa na kijiko cha aiskrimu ya nazi na nazi iliyokaangwa.",
+      "image": "images/menu/embe-aiskrimu-nazi.jpg",
+      "alt": "Vipande vya embe la njano na kijiko cha aiskrimu nyeupe",
+      "tags": [
+        "Bila Nyama",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "chai-ya-viungo",
+      "name": "Chai ya Viungo",
+      "category": "Vinywaji",
+      "price": 2000,
+      "description": "Chai ya maziwa iliyochemshwa taratibu na tangawizi, iliki na mdalasini.",
+      "image": "images/menu/chai-ya-viungo.jpg",
+      "alt": "Kikombe cha chai ya maziwa yenye viungo inayotoa mvuke",
+      "tags": [
+        "Bila Nyama",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "kahawa-chungu",
+      "name": "Kahawa Chungu ya Zanzibar",
+      "category": "Vinywaji",
+      "price": 2500,
+      "description": "Kahawa nyeusi iliyokolezwa iliki, inayohudumiwa kwenye kikombe kidogo.",
+      "image": "images/menu/kahawa-chungu.jpg",
+      "alt": "Kikombe kidogo cha kahawa nyeusi kwenye kisahani",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "juisi-ya-embe",
+      "name": "Juisi ya Embe",
+      "category": "Vinywaji",
+      "price": 4000,
+      "description": "Embe mbivu zilizosagwa na barafu.",
+      "image": "images/menu/juisi-ya-embe.jpg",
+      "alt": "Glasi ndefu ya juisi ya embe ya rangi ya njano",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "juisi-ya-parachichi",
+      "name": "Juisi ya Parachichi",
+      "category": "Vinywaji",
+      "price": 5000,
+      "description": "Parachichi mbivu lililosagwa na maziwa baridi na sukari kidogo.",
+      "image": "images/menu/juisi-ya-parachichi.jpg",
+      "alt": "Glasi ya juisi nzito ya parachichi ya kijani",
+      "tags": [
+        "Bila Nyama",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "juisi-ya-miwa",
+      "name": "Juisi ya Miwa",
+      "category": "Vinywaji",
+      "price": 3000,
+      "description": "Hukamuliwa papo hapo, ikiwa na tangawizi na limau.",
+      "image": "images/menu/juisi-ya-miwa.jpg",
+      "alt": "Glasi ya juisi ya miwa ya kijani hafifu na kipande cha limau",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni"
+      ]
+    },
+    {
+      "id": "maji-ya-dafu",
+      "name": "Maji ya Dafu",
+      "category": "Vinywaji",
+      "price": 3500,
+      "description": "Maji baridi ya dafu, yakihudumiwa moja kwa moja kwenye dafu.",
+      "image": "images/menu/maji-ya-dafu.jpg",
+      "alt": "Dafu la kijani lenye kibomba",
+      "tags": [
+        "Vegan",
+        "Bila Gluteni"
+      ]
+    }
+  ]
+}
